@@ -40,3 +40,29 @@ Nicholas S - Piano Performance and Composition
      ```bash
      ./gradlew desktop:run
      ```
+
+## Distribution
+
+### Building the Executable JAR
+
+To create a single "Fat JAR" that contains all the game code, libraries, and assets for easy sharing:
+
+1. Navigate to the `libGDX Workspace` directory.
+2. Run the distribution task:
+   ```bash
+   ./gradlew desktop:dist
+   ```
+   (On Windows, use `.\gradlew.bat desktop:dist`)
+
+The generated file will be located at:
+`libGDX Workspace/desktop/build/libs/desktop-1.0.jar`
+
+### Running the JAR
+
+Once built, the game can be played by double-clicking the jar or by running:
+
+```bash
+java -jar desktop-1.0.jar
+```
+
+_(Players only need to have Java installed to run this file.)_
