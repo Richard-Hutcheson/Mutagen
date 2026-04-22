@@ -19,7 +19,7 @@ public class LogFileHandler{
 			try {
 				BufferedWriter bw = new BufferedWriter(new FileWriter(filestring, true));
 				bw.newLine();
-				bw.write("******\nLogging only contains errors because it is redundant to log methods are functioning \nwhen no error being logged is the same as writing that it is working\n******");
+				bw.write("******\nLogging only contains errors******");
 				bw.close();
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
