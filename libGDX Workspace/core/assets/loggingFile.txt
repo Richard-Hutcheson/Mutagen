@@ -1,5 +1,0 @@
-
-******
-Logging only contains errors because it is redundant to log methods are functioning 
-when no error being logged is the same as writing that it is working
-******

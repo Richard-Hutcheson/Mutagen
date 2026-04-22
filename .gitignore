@@ -1,1 +1,36 @@
-/.gradle/
+# Build artifacts
+**/bin/
+**/build/
+**/out/
+*.class
+*.jar
+*.tmp
+*.bak
+*.swp
+
+# IDE files
+.settings/
+.project
+.classpath
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+.metadata/
+bin/
+build/
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# LibGDX/Game Specific
+core/assets/playerScore
+core/assets/highScore
+loggingFile.txt
+
+# OS specific
+.DS_Store
+Thumbs.db
